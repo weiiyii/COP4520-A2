@@ -5,23 +5,36 @@
 ### Installation
 
 1. Navigate to the folder where birthdayParty.java is located
-2. Compile the program by running `javac birthdayParty.java`
-3. Run the program by running `java birthdayParty`
+2. Compile the program by running 
+```
+javac birthdayParty.java
+```
+3. Run the program by running 
+```
+java birthdayParty
+```
 
 ### Output
 
 When a guest visits the labyrinth
-`Guest X visited.`
+```
+Guest X visited.
+```
 
 When a guest eat the cupcake
-`Guest X ate the cupcake!`
+```
+Guest X ate the cupcake!
+```
 
 When Guest 0 sees the cupcake's been eaten
-`Guest 0 asked for another cupcake! X guests have visited the labyrinth!`
+```
+Guest 0 asked for another cupcake! X guests have visited the labyrinth!
+```
 
 When Guest 0 counts to n-1, meaning all guests have visited the labyrinth for as least one time
-`We've reached the count!`
-`Guests have all visited the labyrinth!!`
+```We've reached the count!  
+Guests have all visited the labyrinth!!
+```
 
 ### Proof of Correctness
 
@@ -40,27 +53,43 @@ My initial thinking was to create threads with a flag `eaten`, which indicates w
 
 ### Installation
 
-1. Navigate to the folder where birthdayParty.java is located
-2. Compile the program by running `javac crystalVase.java`
-3. Run the program by running `java crystalVase`
+1. Navigate to the folder where crystalVase.java is located
+2. Compile the program by running 
+```
+javac crystalVase.java
+```
+3. Run the program by running 
+```
+java crystalVase
+```
 
 ### Output
 
 When a guest joins the queue
-`Guest X joined the queue`
+```
+Guest X joined the queue
+```
 
 When a guest view the vase for the first time
-`Guest X viewed the vase for the first time!`
+```
+Guest X viewed the vase for the first time!
+```
 
 When a guest view the vase again
-`Guest X viewed the vase again.`
+```
+Guest X viewed the vase again.
+```
 
 When a guest is done viewing and notifies the next in line
-`Guest X notified guest Y the showroom is available.`
+```
+Guest X notified guest Y the showroom is available.
+```
 
 When all guests have viewed the vase for as least one time
-`We've reached the count!`
-`Guests have all viewed the crystal vase!!`
+```
+We've reached the count!  
+Guests have all viewed the crystal vase!!
+```
 
 ### Proof of Correctness
 
